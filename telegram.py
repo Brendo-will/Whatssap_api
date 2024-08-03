@@ -3,16 +3,16 @@ import re
 import requests
 
 # Substitua pelos seus próprios valores
-api_id = '24987097'
-api_hash = 'e0cd251ed34271ccbf69dc20324231fc'
-phone_number = '+5511949443193'
+api_id = ''
+api_hash = ''
+phone_number = ''
 
 # ID do canal
-channel_id = -1001707440698
+channel_id = -
 
 # Credenciais do CallMeBot
-callmebot_phone = '+5511949443193'  # Seu número de WhatsApp, incluindo o código do país
-callmebot_api_key = '5789706'
+callmebot_phone = ''  # Seu número de WhatsApp, incluindo o código do país
+callmebot_api_key = ''
 
 # Cria o cliente do Telegram
 client = TelegramClient('session_name', api_id, api_hash)
